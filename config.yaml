@@ -1,0 +1,8 @@
+path: /Users/ermia/Desktop/RoboCup2026/yolo/thr_project/dataset
+train: images/train
+val: images/val
+
+names:
+  0: omega
+  1: phi
+  2: psi
