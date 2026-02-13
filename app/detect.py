@@ -24,9 +24,6 @@ PADDING_RATIO = 0.10
 model = YOLO(MODEL_PATH)
 model.fuse()
 
-
-
-
 def mono_pre(img_bgr):
     g = cv.cvtColor(img_bgr, cv.COLOR_BGR2GRAY)
 #    g = cv.GaussianBlur(g, (3, 3), 0)
